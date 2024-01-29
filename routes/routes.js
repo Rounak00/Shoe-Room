@@ -3,7 +3,7 @@ const healthCheckController=require("../controller/healthCheck");
 const authentication =require("../controller/auth");
 
 const {verifyAdmin,verifyUser}=require("../middleware/verification");
-const categories=require("../controller/categories");
+// const categories=require("../controller/categories");
 const checkOut=require("../controller/checkOut");
 const orders=require("../controller/orders");
 const products=require("../controller/products");
